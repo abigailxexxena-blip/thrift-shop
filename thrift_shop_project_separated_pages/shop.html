@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Affordable second-hand fashion for IUEA students and everyone who loves a good find.">
+  <title>Shop | Thrift Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">GOOD STYLE, SMALL BUDGETS ✦ Student-friendly prices in UGX</div>
+  <header class="site-header">
+<a aria-label="Thrift Shop home" class="brand" href="index.html"><span class="brand-mark">T</span><span>thrift<span class="brand-light">shop</span><small>PRE-LOVED. RE-LOVED.</small></span></a>
+<button aria-expanded="false" aria-label="Open navigation" class="menu-toggle" id="menuToggle">☰</button>
+<nav aria-label="Main navigation" id="mainNav">
+<a href="index.html">Home</a>
+<div class="nav-dropdown">
+<button aria-expanded="false" class="nav-drop-button" id="categoryToggle">Categories ▾</button>
+<div class="dropdown-menu" id="categoryMenu">
+<a data-category="Clothing" href="shop.html#shop">Clothing</a>
+<a data-category="Shoes" href="shop.html#shop">Shoes</a>
+<a data-category="Bags" href="shop.html#shop">Bags</a>
+<a data-category="Accessories" href="shop.html#shop">Accessories</a>
+</div>
+</div>
+<a href="about.html">About us</a>
+<a href="gallery.html">Gallery</a>
+<a href="faq.html">FAQ</a>
+<a href="contact.html">Contact</a>
+</nav>
+<a class="bag-link" href="shop.html">Shop finds <span>↗</span></a>
+</header>
+  <main>
+    <section class="section shop-section" id="shop">
+<div class="section-heading">
+<div><p class="eyebrow">THE GOOD STUFF</p><h2>Fresh off <em>the rack.</em></h2></div>
+<p class="section-intro">Little treasures, big outfit energy. Pick a category and find your next favourite.</p>
+</div>
+<div aria-label="Filter products" class="filters" role="group">
+<button class="filter active" data-filter="All">All finds</button>
+<button class="filter" data-filter="Clothing">Clothing</button>
+<button class="filter" data-filter="Shoes">Shoes</button>
+<button class="filter" data-filter="Bags">Bags</button>
+<button class="filter" data-filter="Accessories">Accessories</button>
+</div>
+<div class="product-grid" id="productGrid">
+<article class="product-card" data-category="Clothing"><div class="product-image"><img alt="Neutral vintage jacket" src="https://images.unsplash.com/photo-1548624149-f7b2f3b8e8d3?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/><span class="product-tag">CAMPUS PICK</span><button aria-label="Save jacket" class="heart">♡</button></div><div class="product-info"><div><h3>Vintage everyday jacket</h3><p>Easy layers · Size M</p></div><strong>UGX 35,000</strong></div><button class="add-button" data-product="Vintage everyday jacket">Ask about this find <span>↗</span></button></article>
+<article class="product-card" data-category="Shoes"><div class="product-image"><img alt="Red casual sneaker" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/><span class="product-tag">ONE OF ONE</span><button aria-label="Save sneakers" class="heart">♡</button></div><div class="product-info"><div><h3>Everyday sneakers</h3><p>Comfy steps · Size 39</p></div><strong>UGX 45,000</strong></div><button class="add-button" data-product="Everyday sneakers">Ask about this find <span>↗</span></button></article>
+<article class="product-card" data-category="Bags"><div class="product-image"><img alt="Stylish handbag" src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/><span class="product-tag">CUTE &amp; USEFUL</span><button aria-label="Save bag" class="heart">♡</button></div><div class="product-info"><div><h3>Everyday shoulder bag</h3><p>Room for your essentials</p></div><strong>UGX 28,000</strong></div><button class="add-button" data-product="Everyday shoulder bag">Ask about this find <span>↗</span></button></article>
+<article class="product-card" data-category="Accessories"><div class="product-image"><img alt="Minimal gold-toned accessories" src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/><span class="product-tag">LITTLE EXTRA</span><button aria-label="Save accessories" class="heart">♡</button></div><div class="product-info"><div><h3>Simple statement jewellery</h3><p>Small detail, big mood</p></div><strong>UGX 12,000</strong></div><button class="add-button" data-product="Simple statement jewellery">Ask about this find <span>↗</span></button></article>
+<article class="product-card" data-category="Clothing"><div class="product-image"><img alt="Colourful shirts on a rack" src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/><span class="product-tag">EASY OUTFIT</span><button aria-label="Save shirt" class="heart">♡</button></div><div class="product-info"><div><h3>Relaxed fit shirt</h3><p>Easy-going · Size L</p></div><strong>UGX 22,000</strong></div><button class="add-button" data-product="Relaxed fit shirt">Ask about this find <span>↗</span></button></article>
+<article class="product-card" data-category="Bags"><div class="product-image"><img alt="Classic tote bag" src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/><span class="product-tag">DAILY FAVOURITE</span><button aria-label="Save tote" class="heart">♡</button></div><div class="product-info"><div><h3>Campus tote bag</h3><p>Books, laptop, everything</p></div><strong>UGX 18,000</strong></div><button class="add-button" data-product="Campus tote bag">Ask about this find <span>↗</span></button></article>
+</div>
+<p class="stock-note">Student project demo: products and prices are sample listings. Confirm availability before buying.</p>
+</section>
+  </main>
+  <footer class="footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">T</span><span>thrift<span class="brand-light">shop</span><small>PRE-LOVED. RE-LOVED.</small></span></a><p>Good finds. Better stories. Made for everyday budgets.</p><div><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></div><small>© 2026 Thrift Shop · Student project concept</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
